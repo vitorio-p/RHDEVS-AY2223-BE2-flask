@@ -12,7 +12,7 @@ In profiles API (/profiles prefix):
 - GET /{id} to retrieve the name and all scores of a profile 
 - POST /profiles to create a new profile (name only) 
 - DELETE /{id} to delete a profile 
-- GET /{id}/score?minScore= to retrieve all scores of a profile, above the min score 
+- GET /{id}/score?minScore= to retrieve all scores of a profile, above the min score. If min score not provided, return all scores
 
 
 In authentication API (/auth prefix):
