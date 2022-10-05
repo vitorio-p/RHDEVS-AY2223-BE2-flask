@@ -20,4 +20,6 @@ In authentication API (/auth prefix):
 
 Give a reasonable return format with appropriate status code and messages. {“message” : “success/fail”, “data”:””} 
 
+Remember to create a documentation as well (Refer to Google Docs)
+
 OPTIONALS: Add environmental variables into the system (for jwt signing secret) In the login route, check if jwt token is provided and valid Assume URL argument has token “?token=sdlkaskdnalsdnsald” See if username and password field are present
