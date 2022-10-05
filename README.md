@@ -1,8 +1,9 @@
 # RHDEVS-AY2223-BE2-flask
 
-Setup a basic API to simulate a website that tracks profiles and scores for exams
+Setup a basic API to simulate a website that tracks profiles and scores for exams.
 
-A simulated db is provided. Note that the db will not be updated between runs 
+A simulated db is provided. Note that the db will not be updated between runs.
+
 In main: 
 - GET / homepage that returns a welcome message 
 
